@@ -52,7 +52,7 @@
 
                             if (!mysqli_stmt_prepare($stmt, $sql))
                             {
-                                header("Location: ../poll-view.php?error=sqlerror");
+                                header("Location: ../poll.php?error=sqlerror");
                                 exit();
                             }
                             else

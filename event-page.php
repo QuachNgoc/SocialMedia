@@ -66,7 +66,7 @@
                             $date1 = date_create(date("Y-m-d"));
                             $date2 = date_create($row['event_date']);
 
-                            $diff=date_diff($date1,$date2, absolute);
+                            $diff=date_diff($date1,$date2, 'absolute');
 
                             $diff_sec = $diff->format('%r').( 
                                             ($diff->s)+ 
