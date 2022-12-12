@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
-                    <h2 class="logo"><a href="index.php"><img src='../img/Logo200×200.png' style="background-color:white;"></a></h2>
+                    <h2 class="logo"><a href="index.php"><img src='../img/Logo500x500.png' style="background-color:white;"></a></h2>
                 </div>
                 <div class="col-sm-2">
                     <h5>Get started</h5>
@@ -11,7 +11,7 @@
                         <li><a href="index.php">Home</a></li>
                         <li><a href="#team.php">The Team</a></li>
                         <li><a href="#forum.php">The NgocQuach Forum</a></li>
-                        <li><a href="#hub.php">The NgocQuach Hub</a></li>
+                        <li><a href="hub.php">The NgocQuach Hub</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-2">
