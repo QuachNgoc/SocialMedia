@@ -83,11 +83,6 @@ CREATE TABLE `categories` (
   `cat_description` varchar(255) NOT NULL
 );
 
-CREATE TABLE `conversation` (
-  `id` int(11) NOT NULL,
-  `user_one` int(11) NOT NULL,
-  `user_two` int(11) NOT NULL
-);
 
 CREATE TABLE `events` (
   `event_id` int(11) NOT NULL,
@@ -106,13 +101,6 @@ CREATE TABLE `event_info` (
   `description` varchar(6000) NOT NULL
 );
 
-CREATE TABLE `messages` (
-  `id` int(11) NOT NULL,
-  `conversation_id` int(11) NOT NULL,
-  `user_from` int(11) NOT NULL,
-  `user_to` int(11) NOT NULL,
-  `message` text NOT NULL
-);
 
 CREATE TABLE `polls` (
   `id` int(11) NOT NULL,
@@ -202,7 +190,8 @@ CREATE TABLE `topics` (
 
 ALTER TABLE `blogs`
   ADD PRIMARY KEY (`blog_id`),
-  ADD KEY `blog_by` (`blog_by`);
+  ADD KEY `blog_by` (`blog_by`),
+  ON DELETE CASCADE;
 
 --
 -- Indexes for table `blogvotes`
@@ -210,7 +199,8 @@ ALTER TABLE `blogs`
 ALTER TABLE `blogvotes`
   ADD PRIMARY KEY (`voteId`),
   ADD KEY `voteBlog` (`voteBlog`),
-  ADD KEY `voteBy` (`voteBy`);
+  ADD KEY `voteBy` (`voteBy`),
+  ON DELETE CASCADE;
 
 --
 -- Indexes for table `categories`
@@ -220,12 +210,6 @@ ALTER TABLE `categories`
   ADD UNIQUE KEY `cat_name_unique` (`cat_name`);
 
 --
--- Indexes for table `conversation`
---
-ALTER TABLE `conversation`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `user_one` (`user_one`),
-  ADD KEY `user_two` (`user_two`);
 
 --
 -- Indexes for table `events`
@@ -242,14 +226,6 @@ ALTER TABLE `event_info`
   ADD KEY `event` (`event`),
   ADD KEY `title` (`title`);
 
---
--- Indexes for table `messages`
---
-ALTER TABLE `messages`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `user_from` (`user_from`),
-  ADD KEY `user_to` (`user_to`),
-  ADD KEY `conversation_id` (`conversation_id`);
 
 --
 -- Indexes for table `polls`
@@ -331,11 +307,6 @@ ALTER TABLE `blogvotes`
 ALTER TABLE `categories`
   MODIFY `cat_id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
---
--- AUTO_INCREMENT for table `conversation`
---
-ALTER TABLE `conversation`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 
 --
 -- AUTO_INCREMENT for table `events`
@@ -349,11 +320,6 @@ ALTER TABLE `events`
 ALTER TABLE `event_info`
   MODIFY `event_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
---
--- AUTO_INCREMENT for table `messages`
---
-ALTER TABLE `messages`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=74;
 
 --
 -- AUTO_INCREMENT for table `polls`
@@ -420,12 +386,6 @@ ALTER TABLE `blogvotes`
   ADD CONSTRAINT `blogvotes_ibfk_1` FOREIGN KEY (`voteBlog`) REFERENCES `blogs` (`blog_id`),
   ADD CONSTRAINT `blogvotes_ibfk_2` FOREIGN KEY (`voteBy`) REFERENCES `users` (`idUsers`);
 
---
--- Constraints for table `conversation`
---
-ALTER TABLE `conversation`
-  ADD CONSTRAINT `conversation_ibfk_1` FOREIGN KEY (`user_one`) REFERENCES `users` (`idUsers`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `conversation_ibfk_2` FOREIGN KEY (`user_two`) REFERENCES `users` (`idUsers`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints for table `events`
@@ -438,14 +398,6 @@ ALTER TABLE `events`
 --
 ALTER TABLE `event_info`
   ADD CONSTRAINT `event_info_ibfk_1` FOREIGN KEY (`event`) REFERENCES `events` (`event_id`) ON UPDATE CASCADE;
-
---
--- Constraints for table `messages`
---
-ALTER TABLE `messages`
-  ADD CONSTRAINT `messages_ibfk_1` FOREIGN KEY (`user_from`) REFERENCES `users` (`idUsers`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `messages_ibfk_2` FOREIGN KEY (`user_to`) REFERENCES `users` (`idUsers`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `messages_ibfk_3` FOREIGN KEY (`conversation_id`) REFERENCES `conversation` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints for table `polls`

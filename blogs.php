@@ -47,6 +47,7 @@ include 'includes/HTML-header.php';
                 else
                 {
                   // bug đây nè
+                    error_reporting(E_ERROR | E_PARSE);
                     mysqli_stmt_bind_param($stmt, "s", $userid);
                     mysqli_stmt_execute($stmt);
                     $result = mysqli_stmt_get_result($stmt);

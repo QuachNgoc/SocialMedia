@@ -23,7 +23,7 @@
 
         <main role="main" class="container">
       <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded shadow-sm">
-          <img class="mr-3" src="./img/Logo200x200.png" alt="" width="48" height="48">
+          <img class="mr-3" src="./img/Logo200×200.png" alt="" width="48" height="48">
         <div class="lh-100">
           <h1 class="mb-0 text-white lh-100">NgocQuach Hub</h1>
           <small>Spreading Ideas</small>
@@ -36,7 +36,7 @@
         
         <?php
 
-            $sql = "select blog_id, blog_img, blog_date, blog_votes, blog_title, blog_content, uidUsers
+            $sql = "select blog_id, blog_img, blog_date, blog_votes, blog_title, blog_content, blog_by
                     from blogs, users
                     where blogs.blog_by = users.idUsers
                     order by blog_votes desc
@@ -66,9 +66,12 @@
                             <span class="text-right text-primary"><i class="fa fa-thumbs-up" aria-hidden="true"></i>
                                 '.$row['blog_votes'].'<br>';
                     
-                    if ($_SESSION['userLevel'] == 1 || $_SESSION['userLevel'] == $row['blog_by'])
+                    // Delete Blogs
+                    // echo $row['blog_id'];
+
+                    if ($_SESSION['userLevel'] == 1 || $_SESSION['userLevel'] == $row['blog_by'] || $_SESSION['userLevel'] == 0)
                     {
-                        echo '<a href="includes/delete-blog.php?id='.$row['blog_id'].'&page=forum" >
+                        echo '<a href="includes/delete-blog.php?id='.$row['blog_id'].'" >
                                 <i class="fa fa-trash" aria-hidden="true" style="color: red;"></i>
                               </a>
                             </span>';
@@ -133,7 +136,7 @@
                     
                     if ($_SESSION['userLevel'] == 1 || $_SESSION['userId'] == $row['event_by'])
                     {
-                        echo '<a href="includes/delete-event.php?id='.$row['event_id'].'&page=forum" >
+                        echo '<a href="includes/delete-event.php?id='.$row['event_id'].'" >
                                 <i class="fa fa-trash" aria-hidden="true" style="color: red;"></i>
                               </a>
                             </span>';
