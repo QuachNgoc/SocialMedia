@@ -26,7 +26,7 @@
                 <div class="col-sm-2">
                     <h5>Support</h5>
                     <ul>
-                        <li><a href="contact.php">Contact Us</a></li>
+                        <li><a href="https://github.com/QuachNgoc/SocialMedia.git">Github Us</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">
@@ -34,7 +34,7 @@
                         <a href="#github" 
                            class="twitter"><i class="fa fa-github fa-2x"></i></a>
                     </div>
-                    <a class="btn btn-default" href="contact.php">Contact us</a>
+                    <a class="btn btn-default" href="https://github.com/QuachNgoc/SocialMedia.git">Github us</a>
                 </div>
             </div>
         </div>

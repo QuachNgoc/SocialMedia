@@ -75,6 +75,7 @@
                             <input type="text" id="name" name="mailuid"
                                    class="form-control form-control-lg mr-1" placeholder="Username">
                         </div>
+
                         <div class="form-group">
                             <label class="sr-only">Email</label>
                             <input type="password" id="password" name="pwd"
@@ -86,10 +87,10 @@
                     
                     <br><br>
                     <div class="position-absolute login-icons">
-                        <a href="contact.php">
+                        <a href="#_creators">
                             <i class="fa fa-envelope fa-2x social-icon" aria-hidden="true"></i>
                         </a>
-                        <a href="contact.php">
+                        <a href="https://github.com/QuachNgoc/SocialMedia.git">
                             <i class="fa fa-github fa-2x social-icon" aria-hidden="true"></i>
                         </a>
                     </div>

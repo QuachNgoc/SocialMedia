@@ -38,8 +38,7 @@
                     <a class="dropdown-item" href="profile.php">My Profile</a>
                     <a class="dropdown-item" href="edit-profile.php">Edit Profile</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="users-view.php">Find People</a>
-                    <a class="dropdown-item" href="contact.php">Contact Us</a>
+                    <a class="dropdown-item" href="https://github.com/QuachNgoc/SocialMedia.git">Contact Us</a>
                   </div>
                 </li>
                 <li class="nav-item px-3">

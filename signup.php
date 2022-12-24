@@ -106,7 +106,7 @@
                             <a href="./login.php">
                                 <i class="fa fa-sign-in fa-2x social-icon" aria-hidden="true"></i>
                             </a>
-                            <a href="./contact.php">
+                            <a href="https://github.com/QuachNgoc/SocialMedia.git">
                                 <i class="fa fa-envelope fa-2x social-icon" aria-hidden="true"></i>
                             </a>
 
