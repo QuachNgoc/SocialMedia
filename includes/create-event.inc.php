@@ -42,7 +42,7 @@ if (isset($_POST['add-event-submit']))
             }
             else
             {         
-                $FileNameNew = 'event-cover.png';
+                $FileNameNew = 'event.png';
                 require 'upload.inc.php';
                 
                 $sql = "insert into events(event_by, title, event_date, date_created, event_image) "
