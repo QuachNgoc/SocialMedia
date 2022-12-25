@@ -79,7 +79,7 @@
                                     $row2 = mysqli_fetch_assoc($result2);
                                     if(empty($row2))
                                     {
-                                        echo '<img class="empty-img" src="./img/empty.png">
+                                        echo '<img class="empty-img" src="./img/empty.png"> No one
                                                 <br><br><hr><br>';
                                         continue;
                                     }
