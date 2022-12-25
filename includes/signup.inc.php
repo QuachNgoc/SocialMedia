@@ -15,6 +15,8 @@ if (isset($_POST['signup-submit']))
     $bio = $_POST['bio'];
     $f_name = $_POST['f-name'];
     $l_name = $_POST['l-name'];
+
+    //$userLevel = $_POST['admin'];
     
     if (empty($userName) || empty($email) || empty($password) || empty($passwordRepeat))
     {
@@ -82,9 +84,7 @@ if (isset($_POST['signup-submit']))
                 {
                     $hashedPwd = password_hash($password, PASSWORD_DEFAULT);
                     
-                    mysqli_stmt_bind_param($stmt, "sssssssss", $userName, $email, $f_name, $l_name,
-                            $hashedPwd, $gender,
-                            $headline, $bio, $FileNameNew);
+                    mysqli_stmt_bind_param($stmt, "sssssssss", $userName, $email, $f_name, $l_name, $hashedPwd, $gender, $headline, $bio, $FileNameNew);
                     mysqli_stmt_execute($stmt);
                     mysqli_stmt_store_result($stmt);
                     

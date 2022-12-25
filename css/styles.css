@@ -21,7 +21,7 @@ a:hover {
 }
 
 h1 {
-    color: #ff9000;
+    color: #3c6255;
 }
 
 .grey {
@@ -515,7 +515,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; paddi
 }
 
 .social-icon:active {
-    background: #ff9000;
+    background: #3c6255 !important;
 }
 
 .login-icons {
@@ -535,7 +535,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; paddi
 }
 
 .navbar .fa:hover {
-    color: #ff9000 ;
+    color: #3c6255 !important;
 }
 
 .card-user-cover {
@@ -544,12 +544,12 @@ h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; paddi
 }
 
 .btn-warning {
-    background-color: #ff9000;
+    background-color: #46943c !important;
     color: white;
 }
 
 .btn-warning:hover {
-    background-color: #FFA13D;
+    background-color: #3c6255;
 }
 
 .card-profile .fa {
@@ -558,8 +558,9 @@ h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; paddi
 
 
 .card-profile .fa:hover {
-    color: #ff9000;
+    color: #3c6255 !important;
 }
+
 
 
 

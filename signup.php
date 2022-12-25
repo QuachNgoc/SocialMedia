@@ -18,6 +18,7 @@
     <div id="signup">
         <div class="container">
             <div class="row">
+                <!--LOGIN-->
                 <div class="col-sm-6 offset-sm-1">
 
                     <div class="signup-left position-fixed text-center">
@@ -116,6 +117,7 @@
 
                 </div>
 
+                <!----SIGNUP------>
                 <div class="col-sm-6 offset-sm-6 text-center">
 
                     <h1 class="mt-5 text-muted">Signup and Lets Go!</h1>
@@ -128,10 +130,12 @@
                             <input type="text" class="form-control" id="name" name="uid" placeholder="Username"
                                 maxlength="25">
                         </div>
+
                         <div class="form-group col-md-6">
                             <label for="email">Email</label>
                             <input type="email" class="form-control" id="email" name="mail" placeholder="Email">
                         </div>
+
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
@@ -144,6 +148,8 @@
                                 placeholder="Repeat Password">
                         </div>
                     </div>
+
+
                     <div class="form-row border-top my-3">
                         <div class="form-group col-md-12">
                             <h2>Optional</h2>
@@ -162,6 +168,7 @@
                         </div>
                     </div>
                     <div class="form-row">
+                        <!---GENDERS--->
                         <div class="form-group col-md-6 align-self-center">
                             <label>Gender</label><br>
                             <input id="toggle-on" class="toggle toggle-left" name="gender" value="m" type="radio"
@@ -170,6 +177,7 @@
                             <input id="toggle-off" class="toggle toggle-right" name="gender" value="f" type="radio">
                             <label for="toggle-off" class="btn-r">F</label>
                         </div>
+
                         <div class="form-group col-md-6 align-self-center">
                             <img id="blah" class="rounded" src="" alt="your image" class="img-responsive rounded"
                                 style="height: 200px; width: 190px; object-fit: cover;">
@@ -178,6 +186,7 @@
                             </label>
                         </div>
                     </div>
+
                     <div class="form-row">
                         <div class="form-group col-md-12">
                             <label for="headline">Headline</label>

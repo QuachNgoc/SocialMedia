@@ -170,7 +170,7 @@ li a {
 }
 
 .breadcrumb-item.active {
-    color: #ff9000;
+    color: #3c6255;
     font-weight: 600;
 }
 
@@ -223,7 +223,7 @@ textarea .form-control {
 }
 
 a .fa {
-    color: #ff9000;
+    color: #3c6255;
 }
 
 a .fa-trash {
