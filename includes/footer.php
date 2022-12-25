@@ -18,9 +18,9 @@
                     <div class="col-sm-2_2-footer">
                         <h5>About us</h5>
                         <ul>
-                            <li><a href="_creators/YozTree.php">Trà Giang</a></li>
-                            <li><a href="_creators/YozTree.php">Trường Giang</a></li>
-                            <li><a href="_creators/ngocquach.php">Ngọc Quách</a></li>
+                            <li><a href="https://www.facebook.com/nttragianggg">Trà Giang</a></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=100007694491999">Trường Giang</a></li>
+                            <li><a href="https://www.facebook.com/geek.quach0408">Ngọc Quách</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-2_3-footer">
