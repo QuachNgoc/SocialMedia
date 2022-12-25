@@ -18,7 +18,7 @@ if (isset($_GET['id']) && isset($_SESSION['userId']) && ($_SESSION['userLevel'] 
     }
     else
     {
-        mysqli_stmt_bind_param($stmt, "ss", $blog_id);
+        mysqli_stmt_bind_param($stmt, "s", $blog_id);
 
         mysqli_stmt_execute($stmt);
         header("Location: ../hub.php");
