@@ -9,6 +9,9 @@
 >Xuất phát từ nhu cầu trao đổi và chia sẻ các tập tin cũng những thông tin học tập trong môi trường sinh viên thì sản phẩm mang tên  “Website tin tức và diễn đàn - YozTree” được xây dựng.
 
 ## 🧐 Authors
+Giáo viên hướng dẫn: Mai Xuân Hùng - IS207.N12
+
+Môn: Phát triển ứng dụng web
 
 Quách Bảo Ngọc       - 20520655 
 
