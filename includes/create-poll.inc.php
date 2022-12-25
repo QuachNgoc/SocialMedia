@@ -2,7 +2,7 @@
 
 session_start();
 
-if (isset($_POST['poll-submit']) && isset($_SESSION['userId']) && ($_SESSION['userLevel'] == 1))
+if (isset($_POST['poll-submit']) && isset($_SESSION['userId']) && ($_SESSION['userLevel'] == 0) || ($_SESSION['userLevel'] == 1))
 {
     
     require 'dbh.inc.php';

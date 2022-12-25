@@ -4,7 +4,7 @@
 session_start();
 require 'includes/dbh.inc.php';
 
-define('TITLE',"Blogs | NgocQuachStudio");
+define('TITLE',"Blogs | YozTreeStudio");
 
 if(!isset($_SESSION['userId']))
 {
@@ -28,8 +28,8 @@ include 'includes/HTML-header.php';
   <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded shadow-sm">
       <img class="mr-3" src="./img/Logo200×200.png" alt="" width="48" height="48">
     <div class="lh-100">
-      <h1 class="mb-0 text-white lh-100">NgocQuach Blogs</h1>
-      <small>The NgocQuach Hub</small>
+      <h1 class="mb-0 text-white lh-100">YozTree Blogs</h1>
+      <small>The YozTree Hub</small>
     </div>
   </div>
 

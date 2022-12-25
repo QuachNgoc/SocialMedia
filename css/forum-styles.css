@@ -9,14 +9,14 @@
 .btn-primary:hover, .btn-block:hover {
     color: #cee8f0;
     padding: 10px 34px;
-    background-color: #404264;
+    background-color: #46943c !important;
     border-color: #000;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
     color: #cee8f0;
     padding: 10px 34px;
-    background-color: #404264;
+    background-color: #46943c !important;
     border-color: #000;
 }
 

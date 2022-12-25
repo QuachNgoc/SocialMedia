@@ -1,7 +1,7 @@
 <?php
 
     session_start();
-    define('TITLE',"Create Blog | NgocQuachStudio");
+    define('TITLE',"Create Blog | YozTreeStudio");
     
     if(!isset($_SESSION['userId']))
     {

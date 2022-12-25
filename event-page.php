@@ -2,7 +2,7 @@
 
     session_start();
     require 'includes/dbh.inc.php';
-    define('TITLE',"Event | NgocQuachStudio");
+    define('TITLE',"Event | YozTreeStudio");
     
     if(!isset($_SESSION['userId']))
     {

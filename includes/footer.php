@@ -2,39 +2,42 @@
 <footer id="myFooter" class="mt-5">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
+                <!-- <div class="col-sm-3-footer">
                     <h2 class="logo"><a href="index.php"><img src='../img/Logo500x500.png' style="background-color:white;"></a></h2>
-                </div>
-                <div class="col-sm-2">
-                    <h5>Get started</h5>
-                    <ul>
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="#team.php">The Team</a></li>
-                        <li><a href="#forum.php">The NgocQuach Forum</a></li>
-                        <li><a href="hub.php">The NgocQuach Hub</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-2">
-                    <h5>About us</h5>
-                    <ul>
-                        <li><a href="_creators/ngocquach.php">Ngoc Quach</a></li>
-                        <li><a href="_creators/ngocquach.php">Ngoc Quach</a></li>
-                        <li><a href="_creators/ngocquach.php">Ngoc Quach</a></li>
-                        <li><a href="_creators/ngocquach.php">Ngoc Quach</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-2">
-                    <h5>Support</h5>
-                    <ul>
-                        <li><a href="https://github.com/QuachNgoc/SocialMedia.git">Github Us</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <div class="social-networks">
-                        <a href="#github" 
-                           class="twitter"><i class="fa fa-github fa-2x"></i></a>
+                </div> -->
+                <div class="col-sm-footer"> 
+                    <div class="col-sm-2_1-footer">
+                        <h5>Get started</h5>
+                        <ul>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="#team.php">The Team</a></li>
+                            <li><a href="#forum.php">The YozTree Forum</a></li>
+                            <li><a href="hub.php">The YozTree Hub</a></li>
+                        </ul>
                     </div>
-                    <a class="btn btn-default" href="https://github.com/QuachNgoc/SocialMedia.git">Github us</a>
+                    <div class="col-sm-2_2-footer">
+                        <h5>About us</h5>
+                        <ul>
+                            <li><a href="_creators/YozTree.php">Trà Giang</a></li>
+                            <li><a href="_creators/YozTree.php">Trường Giang</a></li>
+                            <li><a href="_creators/ngocquach.php">Ngọc Quách</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2_3-footer">
+                        <h5>Support</h5>
+                        <ul>
+                            <li><a href="https://github.com/QuachNgoc/SocialMedia.git">Github Us</a></li>
+                        </ul>
+                    </div>
+                
+                
+                    <div class="col-sm-3-footer">
+                        <div class="social-networks">
+                            <a href="#github" 
+                            class="twitter"><i class="fa fa-github fa-2x"></i></a>
+                        </div>
+                        <a class="btn btn-default" href="https://github.com/QuachNgoc/SocialMedia.git">Github us</a>
+                    </div>
                 </div>
             </div>
         </div>

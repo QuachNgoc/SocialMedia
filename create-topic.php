@@ -3,7 +3,7 @@
     session_start();
     include_once 'includes/dbh.inc.php';
     
-    define('TITLE',"Create Forum | NgocQuach");
+    define('TITLE',"Create Forum | YozTree");
     
     if(!isset($_SESSION['userId']))
     {

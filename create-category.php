@@ -2,7 +2,7 @@
 
     session_start();
     
-    define('TITLE',"Create Category | NgocQuachStudio");
+    define('TITLE',"Create Category | YozTreeStudio");
     
     if(!isset($_SESSION['userId']))
     {

@@ -3,7 +3,7 @@
     session_start();
     require 'includes/dbh.inc.php';
 
-    define('TITLE',"Poll | NgocQuachStudio");
+    define('TITLE',"Poll | YozTreeStudio");
     
     if(!isset($_SESSION['userId']))
     {
@@ -66,6 +66,7 @@
                         
                             <?php 
 
+                                error_reporting(E_ERROR | E_PARSE);
                                 $sql2 = 'select v.id '
                                         . 'from poll_votes v join polls p '
                                         . 'on v.poll_id = p.id '
@@ -92,9 +93,11 @@
                                 mysqli_stmt_prepare($stmt, $sql2);
                                 mysqli_stmt_bind_param($stmt, "ss", $pollid, $_SESSION['userId']);
                                 mysqli_stmt_execute($stmt);
+
                                 $result = mysqli_stmt_get_result($stmt);
                                 $row = mysqli_fetch_assoc($result);
                                 $voted = $row['poll_option_id'];
+
 
                                 foreach($pollData['options'] as $opt){
 

@@ -7,9 +7,10 @@
                         <img src='uploads/<?php echo $_SESSION["userImg"] ?>' class='card-img-profile'>
                     </a>
                     <?php  
-                        if ($_SESSION['userLevel'] == 1)
+                        // User Badge
+                        if ($_SESSION['userLevel'] == 0)
                         {
-                            echo '<img id="card-admin-badge" src="./img/admin-badge.png">';
+                            echo '<img id="card-admin-badge" src="https://drive.google.com/uc?id=17urRssxXaPc6H-zE-LUSfNxrws9FgdXN">';
                         }
                     ?>
                     <a href="edit-profile.php">

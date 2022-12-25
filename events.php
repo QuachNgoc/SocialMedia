@@ -3,7 +3,7 @@
     session_start();
     require 'includes/dbh.inc.php';
     
-    define('TITLE',"Events | NgocQuachStudio");
+    define('TITLE',"Events | YozTreeStudio");
     
     if(!isset($_SESSION['userId']))
     {
@@ -26,7 +26,7 @@
       <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded shadow-sm">
           <img class="mr-3" src="./img/Logo200×200.png" alt="" width="48" height="48">
         <div class="lh-100">
-          <h1 class="mb-0 text-white lh-100">NgocQuach Events</h1>
+          <h1 class="mb-0 text-white lh-100">YozTree Events</h1>
           <small>Spreading Ideas</small>
         </div>
       </div>
@@ -76,7 +76,7 @@
                     
                     if ($_SESSION['userLevel'] == 1 || $_SESSION['userId'] == $row['event_by'] || $_SESSION['userLevel']==0)
                     {
-                        echo '<a href="includes/delete-event.php?id='.$row['event_id'].'" >
+                        echo '<a href="#includes/delete-event.php?id='.$row['event_id'].'" >
                                 <i class="fa fa-trash" aria-hidden="true" style="color: red;"></i>
                               </a>
                             </span>';

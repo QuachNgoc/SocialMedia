@@ -3,7 +3,7 @@
     session_start();
     require 'includes/dbh.inc.php';
     
-    define('TITLE',"Reset Password | NgocQuachStudio");
+    define('TITLE',"Reset Password | YozTreeStudio");
     
     include 'includes/HTML-header.php';
 ?>  

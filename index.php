@@ -2,9 +2,9 @@
 
     session_start();
     include_once 'includes/dbh.inc.php';
-    define('TITLE',"Dashboard| NgocQuachStudio");
+    define('TITLE',"Dashboard| YozTreeStudio");
 
-    $companyName = "NgocQuachStudio Com.";
+    $companyName = "YozTreeStudio Com.";
     
     function strip_bad_chars( $input ){
         $output = preg_replace( "/[^a-zA-Z0-9_-]/", "", $input);
@@ -52,7 +52,7 @@
                     <div class="col-sm-7" >
 
                         <div class="text-center p-3">
-                            <img src="./img/Logo200×200.png">
+                            <img src="https://drive.google.com/uc?id=1UOBVFB3QDjmztpuPVj1OXax3kqVKBJDa">
                             <h2 class='text-muted'>DASHBOARD</h2>
                             <br>
                         </div>
@@ -208,7 +208,7 @@
                             <div class="tab-pane fade" id="poll" role="poll" aria-labelledby="poll-tab">
 
                                 <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded shadow-sm">
-                                    <img class="mr-3" src="./img/Logo200×200.png" alt="" width="48" height="48">
+                                    <img class="mr-3" src="https://drive.google.com/uc?id=1UOBVFB3QDjmztpuPVj1OXax3kqVKBJDa" alt="" width="48" height="48">
                                   <div class="lh-100">
                                     <h1 class="mb-0 text-white lh-100">Latest Polls</h1>
                                   </div>
@@ -352,8 +352,8 @@
                             <p><br>THE CREATORS</p>
                         </div>
 
-                        <a href="forum.php" class="btn btn-warning btn-lg btn-block">NgocQuach Forum</a>
-                        <a href="hub.php" class="btn btn-secondary btn-lg btn-block">NgocQuach Hub</a>
+                        <a href="forum.php" class="btn btn-warning btn-lg btn-block">YozTree Forum</a>
+                        <a href="hub.php" class="btn btn-secondary btn-lg btn-block">YozTree Hub</a>
                         <br><br><br>
                         <a href="create-topic.php" class="btn btn-warning btn-lg btn-block">Create a Forum</a>
                         <a href="create-blog.php" class="btn btn-secondary btn-lg btn-block">Create a Blog</a>

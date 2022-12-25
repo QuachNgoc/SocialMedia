@@ -3,7 +3,7 @@
     session_start();
     require 'includes/dbh.inc.php';
     
-    define('TITLE',"Forum | NgocQuachStudio");
+    define('TITLE',"Forum | YozTreeStudio");
     
     if(!isset($_SESSION['userId']))
     {
@@ -184,11 +184,11 @@
                                             <table style="width:100%">
                                                 <tr>
                                                     <th>Joined:</th>
-                                                    <td>Sep 27, 2018</td>
+                                                    <td>'.'25/12/2022'.'</td>
                                                 </tr>
                                                 <tr>
                                                     <th>Messages:</th>
-                                                    <td>3</td>
+                                                    <td>0</td>
                                                 </tr>
                                                 <tr>
                                                     <th>Likes:</th>
@@ -233,7 +233,7 @@
                                     </div>
                                 </div>
                                 <span class="likes"><span class="span-post-no"></span> <span class="span-post-no"><a
-                                        href="">NgocQuach Forum</a></span></span>
+                                        href="">YozTree Forum</a></span></span>
                             </div>';
                                             
                         $i++;

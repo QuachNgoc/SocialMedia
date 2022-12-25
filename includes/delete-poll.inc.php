@@ -2,7 +2,7 @@
 
 session_start();
 
-if (isset($_GET['pollid']) && isset($_SESSION['userId']) && ($_SESSION['userLevel'] == 1))
+if (isset($_GET['pollid']) && isset($_SESSION['userId']) && ($_SESSION['userLevel'] == 1) || $_SESSION['userLevel'] == 0)
 {
     
     require 'dbh.inc.php';

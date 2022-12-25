@@ -1,7 +1,7 @@
 <?php
 
     session_start();
-    define('TITLE',"Signup | NgocQuachStudio");
+    define('TITLE',"Signup | YozTreeStudio");
     
     if(isset($_SESSION['userId']))
     {

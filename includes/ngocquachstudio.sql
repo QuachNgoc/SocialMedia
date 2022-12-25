@@ -1,5 +1,5 @@
-create DATABASE ngocquachstudio;
-use ngocquachstudio;
+create DATABASE YozTreestudio;
+use YozTreestudio;
 
 -- Create Tables
 --

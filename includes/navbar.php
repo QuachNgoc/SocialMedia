@@ -2,7 +2,7 @@
 
         <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
             <a class="navbar-brand" href="index.php">
-                <img src="img/Logo500x500.png" width="40" height="40">
+                <img src="https://drive.google.com/uc?id=1UOBVFB3QDjmztpuPVj1OXax3kqVKBJDa" width="40" height="40">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -21,12 +21,12 @@
                     </a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link" href="message.php">
+                    <a class="nav-link" href="#message.php">
                         <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link" href="users-view.php">
+                    <a class="nav-link" href="#users-view.php">
                         <i class="fa fa-users fa-2x" aria-hidden="true"></i>
                     </a>
                 </li>

@@ -2,7 +2,7 @@
 
     session_start();
     require 'includes/dbh.inc.php';
-    define('TITLE',"Votes | NgocQuachStudio");
+    define('TITLE',"Votes | YozTreeStudio");
     
     if(!isset($_SESSION['userId']))
     {

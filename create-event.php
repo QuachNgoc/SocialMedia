@@ -1,7 +1,7 @@
 <?php
 
     session_start();
-    define('TITLE',"Create Event | NgocQuachStudio");
+    define('TITLE',"Create Event | YozTreeStudio");
     
     if(!isset($_SESSION['userId']))
     {

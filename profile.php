@@ -3,7 +3,7 @@
     session_start();
     require 'includes/dbh.inc.php';
     
-    define('TITLE',"Profile | NgocQuachStudio");
+    define('TITLE',"Profile | YozTreeStudio");
     
     if(!isset($_SESSION['userId']))
     {

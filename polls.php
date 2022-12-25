@@ -3,7 +3,7 @@
 
 session_start();
 require 'includes/dbh.inc.php';
-define('TITLE',"Polls | NgocQuachStudio");
+define('TITLE',"Polls | YozTreeStudio");
 
 if(!isset($_SESSION['userId']))
 {
@@ -26,7 +26,7 @@ include 'includes/HTML-header.php';
   <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded shadow-sm">
       <img class="mr-3" src="./img/Logo200×200.png" alt="" width="48" height="48">
     <div class="lh-100">
-      <h1 class="mb-0 text-white lh-100">NgocQuach Polls</h1>
+      <h1 class="mb-0 text-white lh-100">YozTree Polls</h1>
       <small>Spreading Ideas</small>
     </div>
   </div>
@@ -72,7 +72,7 @@ include 'includes/HTML-header.php';
                         </p>
                         <span class="text-right">';
                 
-                if ($_SESSION['userLevel'] == 1)
+                if ($_SESSION['userLevel'] == 0)
                 {
                     echo '<a href="includes/delete-poll.inc.php?pollid='.$row['id'].'" >
                             <i class="fa fa-trash fa-2x" aria-hidden="true" style="color: red;"></i>
@@ -94,7 +94,7 @@ include 'includes/HTML-header.php';
        }
        
        
-        if ($_SESSION['userLevel'] == 1)
+        if ($_SESSION['userLevel'] == 0)
         {
             echo '<small class="d-block text-right mt-3">
                     <a href="create-poll.php" class="btn btn-primary">Create a Poll</a>';

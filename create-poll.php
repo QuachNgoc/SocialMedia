@@ -2,7 +2,7 @@
 
     session_start();
     
-    define('TITLE',"Create Poll | NgocQuachStudio");
+    define('TITLE',"Create Poll | YozTreeStudio");
     
     if(!isset($_SESSION['userId']))
     {
