@@ -96,13 +96,35 @@
     line-height: 25px;
 }
 
-@media screen and (max-width: 767px) {
-    #myFooter {
-        text-align: center;
-    }
-}
-
-#myFooter{
-   flex: 0 0 auto;
-   -webkit-flex: 0 0 auto;
-}
+/*css footer full screen*/
+.col-sm-footer{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+ 
+  /* css cho màn hình mobile and tablet */
+  
+  @media screen and (max-width: 63.9375em){
+      .col-sm-footer{
+          display: flex; 
+          flex-direction: column; 
+          flex-wrap: nowrap; 
+          justify-content: flex-start; 
+          align-items: center; 
+          align-content: flex-end;
+          text-align: center;
+        }
+        
+    
+        .col-sm-3-footer{
+          display: none;
+        }
+  }
+  
+  #myFooter{
+     flex: 0 0 auto;
+     -webkit-flex: 0 0 auto;
+  }
+  

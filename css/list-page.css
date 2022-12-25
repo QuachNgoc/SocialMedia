@@ -76,3 +76,87 @@ a:hover {
 .list-user-img {
     border-radius: 50%;
 }
+
+/*css footer full screen*/
+.col-sm-footer{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+
+
+/*mobile and tablet*/
+@media screen and (max-width: 63.9375em){
+  /*styke 1 hàng dọc cho các element*/
+    .row{
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .creater-icon fa fa-users fa-5x{
+      width:100%;
+    }
+
+    
+    .col-sm-7{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .col-sm-3{
+      display: flex; 
+      flex-direction: column; 
+      flex-wrap: nowrap; 
+      justify-content: flex-start; 
+      align-items: center; 
+      align-content: flex-end; 
+    }
+
+    p{
+      text-align: center;
+      width: 200px;
+    }
+
+    .btn-frbl{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+   /*style kích thước nút*/ 
+    .btn-lg{
+      width: 500px;
+    }
+
+    .col-sm-2{
+      max-width: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    /*style footer*/
+   /* .col-sm-footer{
+      display: flex; 
+      flex-direction: column; 
+      flex-wrap: nowrap; 
+      justify-content: flex-start; 
+      align-items: center; 
+      align-content: flex-end;
+      text-align: center;
+    }
+    
+
+    .col-sm-3-footer{
+      display: none;
+    }*/
+
+}

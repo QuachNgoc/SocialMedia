@@ -562,6 +562,34 @@ h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; paddi
 }
 
 
+/*---pull portfolio 1 row---*/
+.col-lg-6{
+    font-size: 200px;
+}
+.row.no-gutters{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+/*---reponsive mobile and tablet---*/
+
+@media screen and (max-width: 63.9375em){
+    /*--hide avatar--*/
+   
+
+
+    /*--center user section--*/
+    #user-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
 
 
 
