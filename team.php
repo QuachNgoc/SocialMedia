@@ -47,36 +47,36 @@
 
             <div class="row no-gutters">
               <div class="col-lg-6">
-                  <a class="portfolio-item" href="_creators/YozTree.php" target="_blank">
+                  <a class="portfolio-item" href="https://www.facebook.com/geek.quach0408" target="_blank">
                   <span class="caption">
                     <span class="caption-content">
-                      <h2>Ngoc Quach Bao</h2>
+                      <h2>Quách Bảo Ngọc</h2>
                       <p class="mb-0 text-white">The Border is Black</p>
                     </span>
                   </span>
-                  <img class="img-fluid" src="./img/empty.png" alt="">
+                  <img class="img-fluid" src="https://scontent.fsgn5-2.fna.fbcdn.net/v/t39.30808-6/320191447_512833567479339_2807072388919186731_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=nFT4UM7k2P8AX_Roj-A&_nc_ht=scontent.fsgn5-2.fna&oh=00_AfD8-eofnmia5Hbfb6Vz56D59FaEVKG-PtmJzp1Jn_bJmQ&oe=63ADD99E" alt="">
                 </a>
               </div>
               <div class="col-lg-6">
-                  <a class="portfolio-item" href="_creators/YozTree.php" target="_blank">
+                  <a class="portfolio-item" href="https://www.facebook.com/nttragianggg" target="_blank">
                   <span class="caption">
                     <span class="caption-content">
-                      <h2>Ngoc Quach Bao</h2>
+                      <h2>Nguyễn Thị Trà Giang</h2>
                       <p class="mb-0 text-white">The Border is Black</p>
                     </span>
                   </span>
-                  <img class="img-fluid" src="./img/empty.png" alt="">
+                  <img class="img-fluid" src="https://drive.google.com/uc?id=1JaZk-5dIfIrtC12NDDzy09kzf5ik5RRH" alt="">
                 </a>
               </div>
               <div class="col-lg-6">
-                  <a class="portfolio-item" href="_creators/YozTree.php" target="_blank">
+                  <a class="portfolio-item" href="https://www.facebook.com/profile.php?id=100007694491999" target="_blank">
                   <span class="caption">
                     <span class="caption-content">
-                      <h2>Ngoc Quach Bao</h2>
+                      <h2>Đào Võ Trường Giang</h2>
                       <p class="mb-0 text-white">The Border is Black</p>
                     </span>
                   </span>
-                  <img class="img-fluid" src="./img/empty.png" alt="">
+                  <img class="img-fluid" src="https://drive.google.com/uc?id=1aDp3FFd5WGeYoRYD7VAKzmg758QLs5eH" alt="">
                 </a>
               </div>
 
